@@ -1,5 +1,5 @@
 import logoB from "./logos/logoBlack.png";
-import image1 from "./pages/portfolio/portfolioImages/image1.jpg";
+// import image1 from "./pages/portfolio/portfolioImages/image1.jpg";
 
 const logotext = <img src={logoB} alt="logo" width="100" height="40" />;
 const meta = {
@@ -28,23 +28,6 @@ const dataabout = {
     aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 };
 
-const worktimeline = [{
-    jobtitle: "Example 1",
-    where: "Google",
-    date: "2023",
-},
-{
-    jobtitle: "Example 2",
-    where: "Micosoft",
-    date: "2022",
-},
-{
-    jobtitle: "Example 3",
-    where: "Meta",
-    date: "2021",
-},
-];
-
 const skills = [{
     name: "Html",
 },
@@ -72,65 +55,52 @@ const skills = [{
 ];
 
 const dataportfolio = [{
-    img: <img src={image1} alt="img1" />,
-    description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    img: "https://husniddinbek.pythonanywhere.com/media/product/2023/08/25/image1.jpg",
+    description: "Technologies Used!",
+    descriptionTech: "html, css, bootstrap, javascript, three.js, react.js",
+    link: "https://frontend-groups.netlify.app",
 },
 {
-    img: "https://picsum.photos/400/800/?grayscale",
-    description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    img: "https://husniddinbek.pythonanywhere.com/media/product/2023/08/25/image2.jpg",
+    description: "Technologies Used!",
+    descriptionTech: "html, css, bootstrap, sass, javascript, react.js",
+    link: "https://mysunuz.netlify.app",
 },
 {
-    img: "https://picsum.photos/400/?grayscale",
-    description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    img: "https://husniddinbek.pythonanywhere.com/media/product/2023/08/25/image3.jpg",
+    description: "Technologies Used!",
+    descriptionTech: "html, css, bootstrap, javascript, react.js",
+    link: "https://reactloyiha.netlify.app",
 },
 {
-    img: "https://picsum.photos/400/600/?grayscale",
-    description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    img: "https://husniddinbek.pythonanywhere.com/media/product/2023/08/25/image4.jpg",
+    description: "Technologies Used!",
+    descriptionTech: "html, css, bootstrap, javascript",
+    link: "https://random-generate.netlify.app",
 },
 {
-    img: "https://picsum.photos/400/300/?grayscale",
-    description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    img: "https://husniddinbek.pythonanywhere.com/media/product/2023/08/25/image5.jpg",
+    description: "Technologies Used!",
+    descriptionTech: "html, css, bootstrap",
+    link: "https://davlatbek-sultonov-dev.netlify.app",
 },
 {
-    img: "https://picsum.photos/400/700/?grayscale",
-    description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-},
-
-{
-    img: "https://picsum.photos/400/600/?grayscale",
-    description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    img: "https://husniddinbek.pythonanywhere.com/media/product/2023/08/25/image6.jpg",
+    description: "Technologies Used!",
+    descriptionTech: "html, css, bootstrap",
+    link: "https://testoldpage.netlify.app",
 },
 {
-    img: "https://picsum.photos/400/300/?grayscale",
-    description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    img: "https://husniddinbek.pythonanywhere.com/media/product/2023/08/25/image7.jpg",
+    description: "Technologies Used!",
+    descriptionTech: "html, css",
+    link: "https://loyiha1-old.netlify.app",
 },
 {
-    img: "https://picsum.photos/400/?grayscale",
-    description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-},
-{
-    img: "https://picsum.photos/400/550/?grayscale",
-    description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-},
-{
-    img: "https://picsum.photos/400/?grayscale",
-    description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-},
-{
-    img: "https://picsum.photos/400/700/?grayscale",
-    description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    img: "https://husniddinbek.pythonanywhere.com/media/product/2023/08/25/image8.jpg",
+    description: "Technologies Used!",
+    descriptionTech: "html, css, bootstrap",
+    link: "https://testoldpage2.netlify.app",
 },
 ];
 
@@ -153,7 +123,7 @@ export {
     meta,
     dataabout,
     dataportfolio,
-    worktimeline,
+    // whereStudy,
     skills,
     introdata,
     contactConfig,

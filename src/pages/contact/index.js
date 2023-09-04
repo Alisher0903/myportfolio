@@ -5,7 +5,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { meta } from "../../content_option";
 import { Container, Row, Col, Alert } from "react-bootstrap";
 import { contactConfig } from "../../content_option";
-import { TypeAnimation } from "react-type-animation";
+// import { TypeAnimation } from "react-type-animation";
 import Typewriter from "typewriter-effect";
 
 export const ContactUs = () => {
