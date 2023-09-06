@@ -93,7 +93,8 @@ section {
 
 .intro_sec .h_bg-image {
     background-size: cover;
-    /* background-repeat: no-repeat; */
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 40%;    
     background-position: center;
     min-height: 700px;
     position: relative;
@@ -190,7 +191,6 @@ section {
     width: 250px;
     height: 220px;
     border-radius: 100%;
-    /* mix-blend-mode: multiply; */
     background-color: #2f514e;
     z-index: 9999999999;
     display: flex;
@@ -202,7 +202,8 @@ section {
 @media (max-width:991.98px) {
     .intro_sec .h_bg-image {
         height: 600px;
-        min-height: 75vh;
+        border-radius: 0;
+        min-height: 85vh;
         margin-bottom: 30px;
     }
     .intro_sec .h_bg-image .block {
@@ -237,7 +238,7 @@ section {
 }
 
 .intro_sec .h_bg-image {
-    filter: saturate(0.5);
+    filter: saturate(0.6);
 }
 
 .typewriter-text {
