@@ -7,6 +7,7 @@ import {
   meta,
   skills,
 } from "../../content_option";
+import { Link } from "react-router-dom";
 
 export const About = () => {
   return (
@@ -19,7 +20,7 @@ export const About = () => {
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
-            <h1 className="display-4 mb-4">About me</h1>
+            <h1 className="display-4 text-danger fw-bold mb-4" style={{ letterSpacing: "1px" }}>About me</h1>
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
@@ -28,8 +29,16 @@ export const About = () => {
             <h3 className="color_sec py-4">{dataabout.title}</h3>
           </Col>
           <Col lg="7" className="d-flex align-items-center">
-            <div>
-              <p>{dataabout.aboutme}</p>
+            <div className="about_me">
+              <p>
+                {dataabout.aboutme}
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="20" viewBox="0 0 24 24">
+                  <g transform="rotate(180 12 12)">
+                    <path fill="currentColor" d="M10.928 21a2.978 2.978 0 0 1-2.121-.879L1.686 13l7.121-7.121c1.133-1.134 3.109-1.134 4.242 0c.566.564.879 1.317.879 2.119c0 .746-.27 1.451-.764 2.002H18c1.654 0 3 1.346 3 3s-1.346 3-3 3h-4.836c.493.549.764 1.252.764 1.998a2.977 2.977 0 0 1-.879 2.124a2.983 2.983 0 0 1-2.121.878zm-6.414-8l5.707 5.707a1.023 1.023 0 0 0 1.414 0c.189-.189.293-.441.293-.708s-.104-.517-.291-.705L8.342 14H18a1.001 1.001 0 0 0 0-2H8.342l3.293-3.293a.996.996 0 0 0 .001-1.413a1.023 1.023 0 0 0-1.415-.001L4.514 13z" />
+                  </g>
+                </svg>
+                <Link to="/portfolio" className="ms-2">view projects</Link>
+              </p>
             </div>
           </Col>
         </Row>
@@ -39,17 +48,23 @@ export const About = () => {
           </Col>
           <Col lg="7">
             <Row className="w-100">
-              <Col className="col-12 col-md-6">
-                <img src="https://yuz.uz/file/news/7cd8deb6553915d6b86b6c3a1f3b0a55.jpg" className="img-fluid" alt="" />
+              <Col className="col-12 col-md-5 me-4 ms-2 g-3 about_img">
+                <img src="https://yuz.uz/file/news/7cd8deb6553915d6b86b6c3a1f3b0a55.jpg" alt="imgEducation" />
               </Col>
-              <Col className="col-12 col-md-6">
-                <img src="https://www.tuitkf.uz/media/news/images/photo_2023-07-24_15-59-38_PDEdJeB.jpg" className="img-fluid" alt="" />
+              <Col className="col-12 col-md-5 me-4 ms-2 g-3 about_img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR72QrO6JvQSs-Lo_JaWco_EbGrlhV4REKCSPTyvqxvlvpehe-iGLbaN-GepT6rrROjuRU&usqp=CAU" alt="imgEducation" />
               </Col>
-              <Col className="col-12 col-md-6">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/TATU_Qarshi_filiali.jpg" className="img-fluid" alt="" />
+              <Col className="col-12 col-md-5 me-4 ms-2 g-3 about_img">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/TATU_Qarshi_filiali.jpg" alt="imgEducation" />
               </Col>
-              <Col className="col-12 col-md-6">
-                <img src="https://lh6.googleusercontent.com/-Boh5Je6EA04/WOCiE5a8FaI/AAAAAAAAAUA/ZtTouK9VAocZQbZAUlrwYq8vFt77-3NNQCLIB/s1600-w400/" className="img-fluid" alt="" />
+              <Col className="col-12 col-md-5 me-4 ms-2 g-3 about_img">
+                <img src="https://www.tuitkf.uz/media/news/images/photo_2023-07-24_15-59-38_PDEdJeB.jpg" alt="imgEducation" />
+              </Col>
+              <Col className="col-12 col-md-5 me-4 ms-2 g-3 about_img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZiRNttqpY4rLWBLeQYHuwNwfGYHh8-gQu4Q&usqp=CAU" alt="imgEducation" />
+              </Col>
+              <Col className="col-12 col-md-5 me-4 ms-2 g-3 about_img">
+                <img src="https://lh6.googleusercontent.com/-Boh5Je6EA04/WOCiE5a8FaI/AAAAAAAAAUA/ZtTouK9VAocZQbZAUlrwYq8vFt77-3NNQCLIB/s1600-w400/" alt="imgEducation" />
               </Col>
             </Row>
           </Col>
@@ -64,7 +79,7 @@ export const About = () => {
                 <div key={i}>
                   <Card className="skill-card">
                     <Card.Body>
-                      <h3 className="card-title">{skills.name}</h3>
+                      <h2 className="card-title">{skills.name}</h2>
                     </Card.Body>
                   </Card>
                 </div>
