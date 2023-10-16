@@ -111,9 +111,6 @@ export const ContactUs = () => {
                 options={{
                   strings: [
                     contactConfig.description,
-                    contactConfig.description,
-                    contactConfig.description,
-                    contactConfig.description,
                   ],
                   autoStart: true,
                   loop: true,
