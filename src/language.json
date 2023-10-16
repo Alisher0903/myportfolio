@@ -1,0 +1,25 @@
+{
+    "uz": {
+        "nav": {},
+        "home": {
+            "myTitle": "Hi, I'm Alisher"
+        },
+        "about": {},
+        "contact": {},
+        "portfolio": {}
+    },
+    "en": {
+        "nav": {},
+        "home": {},
+        "about": {},
+        "contact": {},
+        "portfolio": {}
+    },
+    "ru": {
+        "nav": {},
+        "home": {},
+        "about": {},
+        "contact": {},
+        "portfolio": {}
+    }
+}

@@ -1,5 +1,5 @@
 import logoB from "./logos/logoBlack.png";
-// import image1 from "./pages/portfolio/portfolioImages/image1.jpg";
+import language from "./language.json";
 
 const logotext = <img src={logoB} alt="logo" width="100" height="40" />;
 const meta = {
@@ -8,7 +8,7 @@ const meta = {
 };
 
 const introdata = {
-    title: "Hi, I'm Alisher",
+    title: language.uz.home.myTitle,
     education: "Front-End developer",
     animated: {
         first: "Html",
