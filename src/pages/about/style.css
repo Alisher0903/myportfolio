@@ -92,7 +92,9 @@
     transition: all .5s;
 
     &:hover {
-        transform: scale(1.08);
+        transform: scale(1.1);
+        filter: brightness(.7);
+        cursor: pointer;
     }
 }
 

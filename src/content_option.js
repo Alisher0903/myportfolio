@@ -1,4 +1,13 @@
 import logoB from "./logos/logoBlack.png";
+import img1 from "./pages/portfolio/portfolioImages/image1.jpg";
+import img2 from "./pages/portfolio/portfolioImages/image2.jpg";
+import img3 from "./pages/portfolio/portfolioImages/image3.jpg";
+import img4 from "./pages/portfolio/portfolioImages/image4.jpg";
+import img5 from "./pages/portfolio/portfolioImages/image5.jpg";
+import img6 from "./pages/portfolio/portfolioImages/image6.jpg";
+import img7 from "./pages/portfolio/portfolioImages/image7.jpg";
+import img8 from "./pages/portfolio/portfolioImages/image8.jpg";
+import img9 from "./pages/portfolio/portfolioImages/image9.jpg";
 import language from "./language.json";
 
 const logotext = <img src={logoB} alt="logo" width="100" height="40" />;
@@ -55,52 +64,58 @@ const skills = [{
 ];
 
 const dataportfolio = [{
-    img: "https://husniddinbek.pythonanywhere.com/media/product/2023/08/25/image1.jpg",
+    img: img1,
     description: "Technologies Used!",
     descriptionTech: "html, css, bootstrap, javascript, three.js, react.js",
     link: "https://frontend-groups.netlify.app",
 },
 {
-    img: "https://husniddinbek.pythonanywhere.com/media/product/2023/08/25/image2.jpg",
+    img: img2,
     description: "Technologies Used!",
     descriptionTech: "html, css, bootstrap, sass, javascript, react.js",
     link: "https://mysunuz.netlify.app",
 },
 {
-    img: "https://husniddinbek.pythonanywhere.com/media/product/2023/08/25/image3.jpg",
+    img: img3,
     description: "Technologies Used!",
     descriptionTech: "html, css, bootstrap, javascript, react.js",
     link: "https://reactloyiha.netlify.app",
 },
 {
-    img: "https://husniddinbek.pythonanywhere.com/media/product/2023/08/25/image4.jpg",
+    img: img4,
     description: "Technologies Used!",
     descriptionTech: "html, css, bootstrap, javascript",
     link: "https://random-generate.netlify.app",
 },
 {
-    img: "https://husniddinbek.pythonanywhere.com/media/product/2023/08/25/image5.jpg",
+    img: img5,
     description: "Technologies Used!",
     descriptionTech: "html, css, bootstrap",
     link: "https://davlatbek-sultonov-dev.netlify.app",
 },
 {
-    img: "https://husniddinbek.pythonanywhere.com/media/product/2023/08/25/image6.jpg",
+    img: img6,
     description: "Technologies Used!",
     descriptionTech: "html, css, bootstrap",
     link: "https://testoldpage.netlify.app",
 },
 {
-    img: "https://husniddinbek.pythonanywhere.com/media/product/2023/08/25/image7.jpg",
+    img: img7,
     description: "Technologies Used!",
     descriptionTech: "html, css",
     link: "https://loyiha1-old.netlify.app",
 },
 {
-    img: "https://husniddinbek.pythonanywhere.com/media/product/2023/08/25/image8.jpg",
+    img: img8,
     description: "Technologies Used!",
     descriptionTech: "html, css, bootstrap",
     link: "https://testoldpage2.netlify.app",
+},
+{
+    img: img9,
+    description: "Technologies Used!",
+    descriptionTech: "html, css, bootstrap, scss, javascript, react.js",
+    link: "https://kashkadaryotravel.uz",
 },
 ];
 

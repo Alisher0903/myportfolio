@@ -8,6 +8,12 @@ import {
   skills,
 } from "../../content_option";
 import { Link } from "react-router-dom";
+import img1 from "./img/img1.jpg";
+import img2 from "./img/img2.jfif";
+import img3 from "./img/img3.jpg";
+import img4 from "./img/img4.jfif";
+import img5 from "./img/img5.jpg";
+import img6 from "./img/img6.jfif";
 
 export const About = () => {
   return (
@@ -49,22 +55,22 @@ export const About = () => {
           <Col lg="7">
             <Row className="w-100">
               <Col className="col-12 col-md-5 me-4 ms-2 g-3 about_img">
-                <img src="https://yuz.uz/file/news/7cd8deb6553915d6b86b6c3a1f3b0a55.jpg" alt="imgEducation" />
+                <img src={img1} alt="imgEducation" />
               </Col>
               <Col className="col-12 col-md-5 me-4 ms-2 g-3 about_img">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR72QrO6JvQSs-Lo_JaWco_EbGrlhV4REKCSPTyvqxvlvpehe-iGLbaN-GepT6rrROjuRU&usqp=CAU" alt="imgEducation" />
+                <img src={img2} alt="imgEducation" />
               </Col>
               <Col className="col-12 col-md-5 me-4 ms-2 g-3 about_img">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/TATU_Qarshi_filiali.jpg" alt="imgEducation" />
+                <img src={img3} alt="imgEducation" />
               </Col>
               <Col className="col-12 col-md-5 me-4 ms-2 g-3 about_img">
-                <img src="https://www.tuitkf.uz/media/news/images/photo_2023-07-24_15-59-38_PDEdJeB.jpg" alt="imgEducation" />
+                <img src={img4} alt="imgEducation" />
               </Col>
               <Col className="col-12 col-md-5 me-4 ms-2 g-3 about_img">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZiRNttqpY4rLWBLeQYHuwNwfGYHh8-gQu4Q&usqp=CAU" alt="imgEducation" />
+                <img src={img5} alt="imgEducation" />
               </Col>
               <Col className="col-12 col-md-5 me-4 ms-2 g-3 about_img">
-                <img src="https://lh6.googleusercontent.com/-Boh5Je6EA04/WOCiE5a8FaI/AAAAAAAAAUA/ZtTouK9VAocZQbZAUlrwYq8vFt77-3NNQCLIB/s1600-w400/" alt="imgEducation" />
+                <img src={img6} alt="imgEducation" />
               </Col>
             </Row>
           </Col>
