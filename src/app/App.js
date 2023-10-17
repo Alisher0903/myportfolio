@@ -8,6 +8,7 @@ import withRouter from "../hooks/withRouter";
 import AppRoutes from "./routes";
 import Headermain from "../header";
 import "./App.css";
+// import NavbarMenu from "../header/NavbarMenu";
 
 function _ScrollToTop(props) {
   const { pathname } = useLocation();
@@ -23,6 +24,7 @@ export default function App() {
     <Router basename={process.env.PUBLIC_URL}>
       <ScrollToTop>
         <Headermain />
+        {/* <NavbarMenu /> */}
         <AppRoutes />
       </ScrollToTop>
     </Router>

@@ -1,6 +1,25 @@
 {
     "uz": {
-        "nav": {},
+        "nav": {
+            "home": "Bosh sahifa",
+            "portfolio": "Qilgan ishlarim",
+            "about": "Men haqimda",
+            "contact": "Bog'lanish"
+        },
+        "home": {
+            "myTitle": "Salom, mening ismim Alisher"
+        },
+        "about": {},
+        "contact": {},
+        "portfolio": {}
+    },
+    "en": {
+        "nav": {
+            "home": "Home",
+            "portfolio": "Portfolio",
+            "about": "About",
+            "contact": "Contact"
+        },
         "home": {
             "myTitle": "Hi, I'm Alisher"
         },
@@ -8,16 +27,16 @@
         "contact": {},
         "portfolio": {}
     },
-    "en": {
-        "nav": {},
-        "home": {},
-        "about": {},
-        "contact": {},
-        "portfolio": {}
-    },
     "ru": {
-        "nav": {},
-        "home": {},
+        "nav": {
+            "home": "Дом",
+            "portfolio": "Портфолио",
+            "about": "Обо мне",
+            "contact": "Контакт"
+        },
+        "home": {
+            "myTitle": "Привет, я Алишер"
+        },
         "about": {},
         "contact": {},
         "portfolio": {}

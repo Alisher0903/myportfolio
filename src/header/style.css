@@ -87,7 +87,7 @@
 
 .site__navigation {
     height: 100%;
-    left: 0;
+    text-align: center;
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -162,9 +162,6 @@
 }
 
 @media (min-width: 992px) {
-    .menu__container {
-        margin-left: 33.3333%;
-    }
     .the_menu {
         padding-top: 10vh;
         padding-bottom: 10vh;

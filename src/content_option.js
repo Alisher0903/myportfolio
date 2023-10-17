@@ -17,7 +17,7 @@ const meta = {
 };
 
 const introdata = {
-    title: language.uz.home.myTitle,
+    title: language.en.home.myTitle,
     education: "Front-End developer",
     animated: {
         first: "Html",

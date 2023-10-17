@@ -20,7 +20,6 @@ const Headermain = () => {
           <Link className="navbar-brand nav_ac" to="/">
             {logotext}
           </Link>
-          {/* <Link to="/" className="navbar-brand nav_ac">{logotextTwo}</Link> */}
           <div className="d-flex align-items-center">
             <Themetoggle />
             <button className="menu__button  nav_ac" onClick={handleToggle}>
@@ -66,7 +65,6 @@ const Headermain = () => {
       <div className="br-bottom"></div>
       <div className="br-left"></div>
       <div className="br-right"></div>
-
     </>
   );
 };
